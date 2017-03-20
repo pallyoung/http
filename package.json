@@ -1,0 +1,34 @@
+{
+  "name": "web-http",
+  "version": "1.0.0",
+  "description": "awesome web http module,you can easy use it to send ajax requset.",
+  "main": "Http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallyoung/http.git"
+  },
+  "keywords": [
+    "awesome",
+    "XMLHttpRequest",
+    "ajax"
+  ],
+  "files": [
+    "Http.js",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Spencer Ye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pallyoung/http/issues"
+  },
+  "homepage": "https://github.com/pallyoung/http#readme",
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.1"
+  }
+}

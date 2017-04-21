@@ -192,7 +192,8 @@
 
 		xhr.open(request.method, request.url, request.async);
 		setRequestHeaders(request.headers, xhr);
-		request.dataType && xhr.overrideMimeType(request.dataType);
+		//ie9以下不支持overrideMimeType
+		request.dataType &&xhr.overrideMimeType&& xhr.overrideMimeType(request.dataType);
 		xhr.send(request.body);
 		request.timeoutHandler = setTimeout(function () {
 			timeoutHandler(request, xhr);

@@ -1,6 +1,6 @@
 {
   "name": "web-http",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "awesome web http module,you can easy use it to send ajax requset.",
   "main": "Http.js",
   "scripts": {
